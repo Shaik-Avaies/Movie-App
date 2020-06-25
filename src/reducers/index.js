@@ -13,6 +13,7 @@ const initialMoviesState = {
   favourites: [],
   showFavourites: false,
 };
+
 export function movies(state = initialMoviesState, action) {
   // // fetch movies and save in store, for now we are getting it from a file
   // // later we will get it from an API

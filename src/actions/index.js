@@ -55,6 +55,7 @@ export function handleMovieSearch(searchText) {
   };
 }
 
+
 export function addMovieSearchResult(movie) {
   return {
     type: ADD_SEARCH_RESULT,
